@@ -41,7 +41,7 @@ function storeData(event) {
 
     let course = { title, price, instructor, imgSrc, courseDesc, time };
     localStorage.setItem('selectedCourse', JSON.stringify(course));
-    window.open('https://nksatya.github.io/TermProject/HTML/product-detail.html', '_self');
+    window.open('https://maniratnareddy-bellamkonda.github.io/TermProject/HTML/product-detail.html', '_self');
 }
 
 function increaseCount(event) {
