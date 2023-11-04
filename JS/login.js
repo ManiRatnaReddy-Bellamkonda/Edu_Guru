@@ -44,7 +44,7 @@ function validateLogin(email, password) {
 
         if (userDetails && userDetails.password === password) {
             console.log('Login successful!');
-            location.href = "https://nksatya.github.io/TermProject/HTML/category.html";
+            location.href = "https://maniratnareddy-bellamkonda.github.io/TermProject/HTML/category.html";
         } else {
             alert('Invalid email or password.');
         }
